@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyBDhJeAZKEgWj74Q-E0PAfGHHDZ2xiMELE",
+    authDomain: "paginatetris.firebaseapp.com",
+    databaseURL: "https://paginatetris.firebaseio.com",
+    projectId: "paginatetris",
+    storageBucket: "paginatetris.appspot.com",
+    messagingSenderId: "659280616279",
+    appId: "1:659280616279:web:6e3c1f0c35984e47093c12"
+  },
 };
 
 /*
