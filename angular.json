@@ -25,7 +25,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/methris-web.html",
+              "src/methris-web.js",
+              "src/methris-web.pck",
+              "src/methris-web.png",
+              "src/methris-web.wasm"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -138,4 +143,5 @@
   "cli": {
     "analytics": "3ce07aeb-fd0b-4b0a-a422-36fed8dc4645"
   }
+
 }
